@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Bajar código
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Probar codigo
         run: python3 main.py
         
